@@ -3,6 +3,33 @@
 ## The Project
 The goal of the project is to model physics of DNA packaging inside a viral capsid. To do so a molecular motor, known as the *portal motor*, push the double-stranded DNA inside the capsid. [This experiment](http://lptms.u-psud.fr/membres/mlenz/teaching/modeling-DNAPackaging.pdf) measure the force exerced by the motor to fill the capsid. Datas can be found [here](http://lptms.u-psud.fr/membres/mlenz/teaching/modeling-DNAPackaging-data.txt).
 
+## The files
+Please use this section to explain what is in each files. It will make collaboration easier.
+
+* **Entropy.ipynb** First draft of an Entropy-based model
+* **First model-Félix.ipynb** 
+* **Model-Angelo.ipynb** First attempt to establish a free energy with both configuration entropy and energy due to bending (Wrong calculation should be discarded)
+* **Some reflexion Félix (correction).ipynb** *Differences with Some reflexion.ipynb ???*
+* **Some reflexion.ipynb** First draft of the *spiral* model
+* **basicfit.ipynb** First test of fiting with the model proposed by Nemo (Comparing volume spanned by DNA with volume of the capsid)
+
+
+
+
+
+
+
+
+
+## The team
+
+* **Angelo Charry**
+* **Némo Malhomme**
+* **Carlo Paris**
+* **Francesco Saverio Pezzicoli**
+* **Félix Vannier**
+
+
 ## How to use Github
 
 ### Instalation
