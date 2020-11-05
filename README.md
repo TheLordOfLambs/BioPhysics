@@ -10,18 +10,36 @@ Datas can be found [here](http://lptms.u-psud.fr/membres/mlenz/teaching/modeling
 
 first you need to install git
 
-on linux simply use the command : apt-get install git-all
-
+on linux simply use the command 
+```console
+apt-get install git-all
+```
 for mac or windows you can ether use a [desktop version](https://desktop.github.com/) (wich I never tried) or a [bash version](https://git-scm.com/downloads) (less user friendly but more control)
-for the bash version on mac you can check if it is allready installed by using : git --version
-
+for the bash version on mac you can check if it is allready installed by using : 
+```console
+git --version
+```
 ### Using git (Bash)
 
-the first thing you will do is clone the repository. To do so simply type  : git clone https://github.com/TheLordOfLambs/BioPhysics.git
-Then it will create a BioPhysics file. You can now go inside with : cd BioPhysics
-After doing your work eather modifying, creating files use the command : git add .
-and then : git commit -m "right what you've done"
-then to publish it on github use the command : git push origin
-
-** /!\ ** Before starting working allways use the command: git pull 
+the first thing you will do is clone the repository. To do so simply type  : 
+```console
+git clone https://github.com/TheLordOfLambs/BioPhysics.git
+```
+Then it will create a BioPhysics file. You can now go inside with : 
+```console
+cd BioPhysics
+```
+After doing your work eather modifying, creating files use the command :
+```console
+git add .
+git commit -m "right what you've done"
+```
+then to publish it on github use the command : 
+```console
+git push origin
+```
+** /!\ ** Before starting working allways use the command: 
+```console
+git pull 
+```
 it will keep your folder up to date in case someone have modified some files
