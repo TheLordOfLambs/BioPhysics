@@ -12,6 +12,7 @@ Please use this section to explain what is in each files. It will make collabora
 * **Some reflexion Félix (correction).ipynb** *Differences with Some reflexion.ipynb ???*
 * **Some reflexion.ipynb** First draft of the *spiral* model
 * **basicfit.ipynb** First test of fiting with the model proposed by Nemo (Comparing volume spanned by DNA with volume of the capsid)
+* **SpiralLayerNumpy.py** Numerical computation of energy made in the "onion layers" or "spiral layers" model, which only considers bending energy costs.
 
 
 
