@@ -70,17 +70,28 @@ def packing_energy(R, d, Ltot):
         
     return listL, listE
 
-def plot_energy_graph(R,d,L):
-    L,E=packing_energy(R, d, L)
-    
-    plt.plot(L,E, '.')
+def energy_to_force(listL, listE):
+    listF= np.gradient(listE, listL)
+    plt.plot(listL,listF, '.', color='r')
     plt.show()
     
+
+def plot_graphs(R,d,L):
+    lengths,energies=packing_energy(R, d, L)
+    forces = energy_to_force(lengths, energies)
     
+    plt.plot(lengths,energies, '.')
+    plt.show()
+    
+
+R = 20*1e-9
+d = 0.02*1e-9
+L = 19000*.33*1e-9
+
 #First argument: R, capsid size
 #second argument: d, DNA strands distance (to fit)
 #Third parameter: maximum lenght. I've put infinity to get the full graph.
-plot_energy_graph(50, 0.3, math.inf)
+plot_graphs(R, d, L)
 
     
     
